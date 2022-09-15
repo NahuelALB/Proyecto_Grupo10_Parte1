@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(37, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+}
+h1{
+
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-right: 150px;
+
+}
+
+.logo{
+    width: 90px;
+    height: 84px;
+    margin-left: 270px
+}
+
+.fondo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.TituloCartelera{
+    width: 400px;
+    height: 200px;
+
+    border-radius: 10%;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+
+    background-color: rgb(37, 37, 37);
+
+    text-align: center;
+
+    border: 3px solid white;
+}
+
+.ParrafoCartelera{
+    width: 400px;
+    height: 200px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    position: absolute;
+    top: 48%;
+    left: 320px;
+}
+
+.Boton{
+    width: 200px;
+    height: 65;
+    background-color: black;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    border-radius: 25%;
+    letter-spacing: 2px;
+
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    top: 400px;
+    left: 406px;
+
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.Boton:hover{
+    background:rgb(75, 75, 75)
+}
+
+footer{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
